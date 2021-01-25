@@ -1,0 +1,161 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap";
+
+.portada{
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+.portadaImagen{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.portadaRecuadro{
+	position:absolute;
+	top: 15%;
+	left : 10%;
+	z-index: 1;
+}
+
+.portadaLetraProducto{
+	margin-left: 10%;
+	margin-top: 5%;
+	font-family: "Roboto", sans-serif;
+	font-size: 350%;
+}
+
+.portadaLetraNombrePelicula{
+	margin-left: 10%;
+	font-family: "Roboto", sans-serif;
+	font-size: 500%;
+	font-weight: bold;
+}
+
+.portadaLetraReseña{
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Roboto", sans-serif;
+	font-size: 160%;
+}
+
+.portadaInformacion{
+	margin-left: 10%;
+	font-family: "Roboto", sans-serif;
+	font-size: 120%;
+}
+
+.portadaRecuadroBotones{
+	margin-top: 3%;
+}
+
+.portadaVotoLike{
+	margin-top: 5%;
+	background-color: rgb(0, 174, 167);
+	border-radius: 2px;
+	border-color: rgb(0, 174, 167);
+	height: 40%;
+	width: 50%;
+}
+
+.portadaVotoDisLike{
+	margin-top: 5%;
+	background-color: rgb(255, 163, 0);
+	border-radius: 2px;
+	border-color: rgb(255, 163, 0);
+	height: 40%;
+	width: 50%;
+}   
+
+.portadaBarraVotos{
+	position:absolute;
+	top: 90%;
+}
+
+.portadaBarraVotosLike{
+	margin-top: 45%;
+	margin-bottom: 0%;
+	background-color: rgba(0, 174, 167, 1);
+	border-color: rgba(0, 174, 167, 1);
+	height: 10%;
+}
+
+.portadaBarraVotosDisLike{
+	margin-top: 45%;
+	margin-bottom: 0%;
+	background-color: rgba(255, 163, 0, 1);
+	border-color: rgba(255, 163, 0, 1);
+	height: 10%;
+}
+
+.PortadaNumeroVotosBarra{
+	padding-left: 30%;
+	font-family: "Roboto", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 50px;
+}
+
+.CuadroVotado{
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 80%;
+	height: 20%;
+}
+
+.textoVotado{
+	padding-left: 20%;
+	font-family: "Roboto", sans-serif;
+	font-size: 35px;
+}
+
+.portadaLetraReseñaVotado{
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
+.VotoLike{
+	margin-left: 5%;
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+	background: rgba(0, 174, 167, 1)
+}
+
+.VotoDisLike{
+	margin-left: 5%;
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+	background:  rgba(255, 163, 0, 1);
+}
+
+.boton-volverVotar-transparente {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	margin-left: 30%;
+	display: inline-block;
+	width: 40%;
+	padding: 8px;
+	color: rgb(0, 0, 0);
+	border: 2px solid rgb(0, 0, 0);
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.0);
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  }
+  .boton-volverVotar-transparente:hover,
+  .boton-volverVotar-transparente:active {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  }
+
+@import url('https://cdn.syncfusion.com/ej2/material.css');
